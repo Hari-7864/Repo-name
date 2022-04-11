@@ -1,7 +1,155 @@
-/* Our CSS file. */
-
-
-.container, .content {
-width: 100%;
-height: 100%;
+/* CONTAINER section */
+.box{
+    display: block;
+    border: 3px solid rgb(6, 6, 108);
 }
+.container {
+    width: 100%;
+    height: 100vh;
+    border: 10px solid black;
+    display: block;
+    position:absolute;
+}
+/* container section end */
+
+/* header section start */
+header {
+    width: auto;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2%;
+   
+    position: fixed;
+    top:0;
+    left: 220px;
+    right:0;
+    z-index: 1000;
+}
+header .logo img{
+    height: 6.3rem ;
+
+}
+.search{
+    float: right;
+    margin: 4px;
+
+}
+.search input[type=text]{
+width: 150px;
+height: 20px;
+border-radius: 15px;
+border: 2px solid black;
+margin-top: 35px;
+padding: 2px;
+position:relative;
+}
+.search button{
+    float: right;
+    padding: 5px 10px;
+    margin-right:15px;
+    margin-top: 35px;
+    cursor: pointer;
+    color: #398b0d;
+}
+/* header section end */
+
+/* navbar section start */
+navbar {
+    display: block;
+    width: auto;
+    height: 50px;
+    border: 1px solid red;
+    margin: 10px;
+}
+nav {
+    left: 30%;
+    right: 17%;
+    top: 21%;
+    width: 1000px;
+    position: absolute;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 2px 4px 4px;
+    margin:0 10px;
+    color:rgb(6, 193, 43);
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+    
+     
+}
+.navbar a:hover{
+    color: blue;
+
+}
+/* navbar section end */
+
+/* content section start */
+.content{
+    height: auto;
+    width: 100%;
+}
+aside {
+    text-decoration:none;
+    height: 300px;
+    float: left;
+    width: 25%;
+    border: 1px solid red;
+    margin: 10px;
+}
+section {
+    height: 300px;
+    float: left;
+    width: 45.5%;
+    border: 1px solid red;
+    margin: 10px;
+}
+.list{
+    display: block;
+    width: 31.4%;
+    border: 1px solid rgb(204, 44, 44);
+    height: 140px;
+    margin: 5px;
+    float: left;
+}
+ul > li {
+    text-decoration: none;
+}
+
+section div {
+    border: 1px solid red;
+    margin: 10px;
+    height: 45%;
+}
+/* container section end */
+/* 
+footer section start */
+
+footer {
+    border: 1px solid red;
+    margin: 10px; 
+
+    
+}
+
+
+.footer {
+    border: 2px solid rgb(181, 15, 42);
+    margin-top: 330px;
+    height: 150px;
+    top: 20%;
+    position: inherit;
+    
+}
+
+/* footer section end */
