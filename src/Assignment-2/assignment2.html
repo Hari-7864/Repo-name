@@ -5,18 +5,100 @@
 	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta http-equiv="Expires" content="0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="bundle.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body >
+	<div class="box">
 	<div id="container">
 
 	<!-- Start your code from here -->
+
+	<header>
+		<a class="logo"> 
+			<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIHBhMSBxEWFRUWGBYXGRYWFhceFRoXFhUWFhcYGRUdHiggGB0lHRUVITEhJSorLy4uFx8zODMtNyguLisBCgoKDg0OGhAQGy0lICYxLS0vLS0tLS0vLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAMIBAwMBEQACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAABAUGAwIHAf/EADYQAAIBAwEGAwUHBAMAAAAAAAABAgMEEQUSITFBUWETcaEGIoGRwRQjMkJSsdFicvDxJDOS/8QAGwEBAAMBAQEBAAAAAAAAAAAAAAMEBQIGAQf/xAAuEQEAAgIBAwIEBgEFAAAAAAAAAQIDEQQSITEFEyJBUWEUMkJxgaGxFSNSkdH/2gAMAwEAAhEDEQA/APjgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACewAAAAAA+bA+gAAAAAAAAAAAAAAAAAAAAAAAAAAAADz5TNO02pqFTFBblxk+CIsmatI7rnD4ObkTqvhp7L2ao0Y/f5m+7wvkvqULcu8z8PZ6Tj+iYad795T1o9DZx4MP/ACiL38n1Xf8AT+N/xV997L06sc2mYP4uPyfAmpy7V7X7qHK9DxZO+OdSyt9ZTsKuzcxw+T5PumX6Xi/eHmeTxcmG2skOMIOpLFNNvoll/I7m0QipW9/yxtZ2GkOfvX8ZwguSi9p/PgiDJn+VZhpcT021vjzbiP2X+n2VnWj9xCL/ALt79WUr5M0eW7xuNwJjVI3Lvcez9vXjuhsvrFtenA+V5N6pM3pPGvHaNT9mZ1XQ6lhP3Mzh+pLeuzXIv4uRW8fd53m+l5uPbt3hVE/yZc7mO4AAAAAAAAAAAAAAAAAAAAAAAAd7O2ld11Gkm/LocZLxSNrHG41s94rX+WvtLGtToKNKcKcVwSWfn1Mu2WszuXscXFy0pFaT0xCXCncUVvlGfww/8+Jz/tz8ksV5NfnEpFtexqy2ai2ZLimfJxuqZ4mdX8peycaWNo97YwvqDhcRyvVPqnyZ3S80ncIORx8eek0vCHbwpaNGNNLGfzbsyfPL69iS1rZe6tiph4kRSK6+/wBVhGcZQymseZD0yu+5TTM3P39+5aVFtc3FbnJbm2WonVdXZExFsk2wwttO1DxPcuFiS5MhvT6LuDP+nIm3CToy8Thh/Dv2I6dp7LeSIms78MLqlupw8Wisb8TS4ZfCSXJP9/M08OT9MvHc/jREe7j/AGn/ANVhZZQAAAAAAAAAAAAAAAAAAAAAAHzfdbns2GkUoaZZrb/HJKUuGfL4GZnm2S32ew9Orj4uKN/mnytbe9hV4MrzSYaNeTSyfT3rcc90u4lS68vGu6cbbfNZ4cd+MfVk1O0d2fyo6rbr5SrStVtIpX8cL9Saa9OB8tET4d473x/nWkcSjmPAj1pc31RuFN7Tyj9jjF/ick11WOZNh3EqPP8AirqWddRzypP4E8xHlnVvMxprNJpxp2MVRx1fdvm/QqZJmZ7tjiVrFPhc9UsvtVPNN4muD+jFL67HJ48ZK7jyyjq3WoXPgSk1v39MLm+3Yv6x0r1POdXNz5Ywb8LO90v7Np03Tk5NQaaa47uXTHH4FbHmi2SGtyuFNOPaY+jJGo8aAAAAAAAAAAAAAAAAAAAAAAeqX/YtrhlfufLeHVO94ifq1VaOzety5P0/0Z23rejs8ujsS934Psc7dVrvvD9qVqtOGaEnu4rqhGn283iNwt/ZvZqUpTjvb+eCPJuqzxZi3eVzKKlHEllPkRxuFrz5Ueo29WwblZTkoPitzx81wJazE+VPJS1e9ZRNKsZX9eU72Tkl832fRI6vbUdkWDDOS27ys7rSKVan7kFGXKUePx6kcZJhaycWkx28qazv3p+oeDXTz6Y5NdmTTj6q9UKFeT7Wf2pidtBtqccx4FS0NmsxMdUKypijqia/OvXh/BNuZoqzFaZ4n6pdTfB56MhrMxMaW8tY9uY+WpfOTeh+b28yB8AAAAAAAAAAAAAAAAAAAAAB9ho6Wqwr2kdvPipKOylnba3Jp8ijfBMW38noeP6jT24j9XjX1dLFVKVPF3jDeU1+XLzh9t5zkmtvCxxozYtzk8T/AEluOGQeGjEQg3F89Iu4yo8JZyl1XNfMsY6e5XUszlcn8JeJ+UtZpuow1CinTe/oVb4+iWvg5EZKxKVPEo4lwOdp5iJ7SqISWm3my37st67f6yvmjrW4Vo1jvr6rGUiNbhV6vaqtDbS96Ke/m4819SSl5j4VfkYK2nrjyr7fUXQhhLa6eZJNInyq05FscarXf0QLu4rwqqpe09lNpLDWF0XElrSkxqJVMufkUtFs1dd+y41K7VDTZT5uO7zkt3+ditgx9V4hqc3k1xca1/4/lhjZeBkAAAAAAAAAAAAAAAAAAAAAAATtFrxttVpyr/hy0+21Fxz8M5+BHljqpMQtcLJGPPW1vDUVqTo1XGf+11MuPu9lOp2g3tedrSzSipJd96/lE2OK2/Mz+VfPgr1Y43H+FZbWstVqOdxLC4bv2XYsXvXFGoZWDj5Odf3cs9vCXCjPSqinaybiuK5r+SLrrk8r8Yb8TU03Nf7hpbLWqdzQTk8PmsP0Kt8c1lr4uVW8dlbqylqVZO3ynH8P1yu53jmK9pQcnHbLPw/JL0u7lKHh3KcZLk+n1OclY8wn4uW0x0X8pknniQb+a7EdtSzNvLwta8OX5ZbvLiv3RdtHwbYeK8V5U45+UrbVoxnYSVdpLdvfLemV8M26uzS50Y/Z1fxtldX1H7dVShuhHdFdf6n/AAaeHD0Rv5vI+o86eRbpr+WPH3+6vJ2aAAAAAAAAAAAAAAAAAAAAAAAAjtJ9Wl0PVFc0lQvXiS3U5vh/ZJ/sylnwfqq9D6Z6jEx7WT+JWFSDpzaqLD6FTem10/VztqKoxcYbk3ldm+K8md3v1eUGLFGGZivif6ejnvtY8q+4tHRqbdlufOPJktbxMaln5cE4p68f/S/0ualYpri85888Ctl8tfizunU61oKpjPFPKfQ56ks0i07GzmfCSFJVpqeu7SXDGX2Ud+S3E29vTGyY6Ty/c/tWe0GqK8nsW79yPF/qf8FnjYPb7z5ZHrHqMZ7e3T8v+VMW2HoAAAAAAAAAAAAAAAAAAAAAAAAAAC+0vXtmmqep5lFbozX44+f6l6lXLx4nvVtcL1SafBl768Ssri4pUqDnGrCUezWX22eOSrXFbq1MNjJzMFadXVCHZ3NTws3UGuku3LPR9+ZJkrX5Sq8XkZYjeSO0pe2pLMSDUw0IvE+HXS6+xWcHwe9efM+ZI3G3fFyatNVm2V2ij3lyrS2c6vBer5Ikx0m9tIeTnrgxTksw1a6nWlJzk/eeWvM2KY6w8Fl5eXJvc+XEkVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAbJ15dLap4NxGTWdlp464ecHNo3V3itFL1tP7y2VfE4eJbvahLemu/J9DLms1nUvZ48lMlYtSdxKtrQxLNJ4fp8juEFqTE7rOnm1nP7VHOOPFH2+umXOK94yRK61G8jZW7lUeOS65K2Ok3tqGpyuXTj4+qzJ6tqctQq9Irgvq+5q4cEY4+7x/qHPvyra8RHyV5MzgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAl2Oo1LCX/HlufGL3xfnE4vjraFnBysmCd0n+Fg9XpVV99TlB/0Ycfk8YK/4eY8S0o9UpaPjiYn7PyGr07d5owlKXLawl8k2Pw9p7TJHqlKd6VmZ+6su7ud5V2rh5fovJcixSlaRqGXyeVkz36sk7cDtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//Z" >
+		</a>
+		<div class="search">
+			<form action="#">
+				<input type="text" placeholder="Search here" name="search">
+				<button>
+					<i class="fa fa-search">
+					</i>
+				</button>
+			</form>
+		</div>
+	</header>
+	<navbar>
+		<nav class="navbar" style="left: 20%;">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">References</a>
+			<a href="#">Help</a>
+			<a href="#">Contact</a>
+		</nav>
+		
+	</navbar>
 	
+		<aside>
+			<ul>
+				<li>Section 1</li> <li>Section 2</li> <li>Section 3</li> <li>Section 4</li>
+				<li>Section 5</li> <li>Section 6</li> <li>Section 7</li> <li>Section 8</li>
+				<li>Section 9</li> <li>Section 10</li>
+			</ul>
+		</ul>
+		</aside>
+		<section>
+			<div class="list"> <img width="218" height="140"
+					src="https://images.unsplash.com/photo-1648842315690-1a83ed503a2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+			</div>
+			<div class="list"> <img width="218" height="140"
+					src="https://images.unsplash.com/photo-1495216875107-c6c043eb703f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2slMjBncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+			</div>
+			<div class="list"><img width="218" height="140"
+					src=" https://images.unsplash.com/photo-1648842315690-1a83ed503a2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+			</div>
+			<div class="list"> <img width="218" height="140"
+					src="https://images.unsplash.com/photo-1495216875107-c6c043eb703f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2slMjBncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+			</div>
+			<div class="list"><img width="218" height="140"
+					src="https://images.unsplash.com/photo-1648842315690-1a83ed503a2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM0fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+			</div>
+			<div class="list"> <img width="218" height="140"
+					src="https://images.unsplash.com/photo-1495216875107-c6c043eb703f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJhY2slMjBncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+			</div>
+		
+		</section>
+		<aside>
+			<ul>
+				<li>Feature 1</li>
+				<li>Feature 2</li>
+				<li>Feature 3</li>
+				<li>Feature 4</li>
+				<li>Feature 5</li>
+				<li>Feature 6</li>
+			</ul>
+		</aside>
+
+	<footer class="footer">
+		<p><h6>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+			 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+			 not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+			with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+			 including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+			 ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived 
+			 not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+			with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+			 including versions of Lorem Ipsum.
+			 </h6>
+		</p>
+	</footer>
 
 	<!-- End your code -->
 
 	</div>
+</div>
 
 	<script type="text/javascript">
 
