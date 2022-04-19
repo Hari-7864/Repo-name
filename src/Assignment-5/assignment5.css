@@ -5,3 +5,57 @@
 width: 100%;
 height: 100%;
 }
+.box {
+    background: rgb(247, 236, 236);
+    height: 80%;
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 20%;
+    padding: 20px;
+}
+
+.row {
+    margin-top: 20px;
+    min-height: 300px;
+   display: block;
+   background-color: white;
+}
+
+.centered {
+    text-align: center;
+    vertical-align:middle;
+    padding:50px;
+    
+
+}
+
+section{
+    display: inline-block;
+}
+
+
+ 
+section img {
+    background:rgb(120, 240, 120);
+}
+
+.inline {
+    display: inline-block;
+    text-align: justify;
+    width: 38%;
+    margin: 1px;
+    padding: 52px;
+}
+
+.card{
+display: inline-block;
+
+}
+.btn{
+    background-color:rgb(120, 240, 120);    border: none;
+    padding: 18px;
+    border-radius: 39px;
+}
+
+ 
